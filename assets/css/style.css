@@ -6,6 +6,7 @@ orange (toujours plus sombre) : #662700;
 bleu électrique : #009FFD;
 bleu électrique (variante claire) : #3EC8FE;
 bleu électrique (variante sombre) : #006DB2;
+bleu électrique (toujours plus sombre) : #00426b;
 police d'écriture (font) : Anton;
  */
 
@@ -15,11 +16,6 @@ body {
 
 header {
   height: 7.5rem;
-  background-color: #009FFD;
-}
-
-footer {
-  background-color: #009FFD;
 }
 
 header img {
@@ -53,6 +49,7 @@ header img {
 
 nav {
   background-color: #006DB2;
+  border-style: groove;
 }
 
 nav a:hover {
@@ -84,3 +81,15 @@ nav a:hover {
   }
 }
 /* Changes when in mobile mode */
+
+.contentBackground {
+  background-color: #00426b;
+}
+
+.headerGradient {
+  background: linear-gradient(to bottom, #009FFD, #00426b);
+}
+
+.footerGradient {
+  background: linear-gradient(to top, #009FFD, #00426b);
+}
