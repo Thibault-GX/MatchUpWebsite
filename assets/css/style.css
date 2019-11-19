@@ -1,0 +1,86 @@
+/* Colors' listing
+orange : #FF6702;
+orange (variante claire) : #FF9A55;
+orange (variante sombre) : #CA5203;
+orange (toujours plus sombre) : #662700;
+bleu électrique : #009FFD;
+bleu électrique (variante claire) : #3EC8FE;
+bleu électrique (variante sombre) : #006DB2;
+police d'écriture (font) : Anton;
+ */
+
+body {
+  font-family: 'Anton', sans-serif;
+}
+
+header {
+  height: 7.5rem;
+  background-color: #009FFD;
+}
+
+footer {
+  background-color: #009FFD;
+}
+
+header img {
+  height:7.5rem;
+}
+
+.borderMatchUp {
+  text-shadow: -2px 0 #662700, 0 2px #662700, 2px 0 #CA5203, 0 -2px #FF9A55;
+}
+
+.catchParameters {
+  width: 60rem;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  line-height: 125%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* Navbar related */
+.navbarText {
+  color: #FF6702;
+  font-size: 1.5rem;
+  text-shadow: -1px 0 #662700, 0 1px #662700, 1px 0 #CA5203, 0 -1px #FF9A55;
+}
+
+.orangeMU {
+  color: #FF6702;
+}
+
+nav {
+  background-color: #006DB2;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+/* Changes when in mobile mode */
+@media screen and (max-width: 768px){
+
+  body .navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+    background-size: contain;
+  }
+
+  header {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+  header img {
+    height: 5rem;
+  }
+
+  header h1 {
+    display: none;
+  }
+}
+/* Changes when in mobile mode */
