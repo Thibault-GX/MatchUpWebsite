@@ -12,6 +12,7 @@ police d'écriture (font) : Anton;
 
 body {
   font-family: 'Anton', sans-serif;
+  background: linear-gradient(0.25turn, #009FFD -50%, #00426b 50%, #009FFD 150%);
 }
 
 header {
@@ -49,6 +50,10 @@ header img {
 
 nav {
   background-color: #006DB2;
+  border : 4px #CA5203;
+  border-style: ridge;
+  border-left: none;
+  border-right: none;
 }
 
 nav a:hover {
@@ -64,12 +69,19 @@ nav a:hover {
     width: 100%;
     z-index: 3;
     background-size: contain;
+    border-bottom: none;
   }
 
   header {
     height: 5rem;
     display: flex;
     justify-content: center;
+    background-color: #009FFD;
+    border: 4px #CA5203;
+    border-style: ridge;
+    border-left: none;
+    border-right: none;
+    border-top: none;
   }
   header img {
     height: 5rem;
@@ -85,28 +97,38 @@ nav a:hover {
   background-color: #00426b;
 }
 
-.headerGradient {
+/* .headerGradient {
   background: linear-gradient(to bottom, #009FFD, #00426b);
 }
 
 .footerGradient {
   background: linear-gradient(to top, #009FFD, #00426b);
-}
+} */
 
 .card {
-  border : 4px #FF9A55;
+  border : 4px #CA5203;
   border-style: ridge;
   border-radius: 10px;
-  max-height: 15rem;
-  background-color: #006DB2;
+  max-height: 25rem;
+  background: radial-gradient(#009FFD, #00426b); 
 }
 
+.card img {
+  max-height: 9rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  margin: 1%;
+  }
+
 .card-text {
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  max-height: 7rem;
+  text-align: justify;
+  overflow: hidden;
 }
 
 .card-title {
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  max-height: 4rem;
 }
 
 .btn-MatchUp {
