@@ -23,6 +23,12 @@ header img {
   height:7.5rem;
 }
 
+footer {
+  background-color: #00426b;
+  border-top: ridge 4px;
+  border-color: #CA5203;
+}
+
 .borderMatchUp {
   text-shadow: -2px 0 #662700, 0 2px #662700, 2px 0 #CA5203, 0 -2px #FF9A55;
 }
@@ -76,7 +82,7 @@ nav a:hover {
     height: 5rem;
     display: flex;
     justify-content: center;
-    background-color: #009FFD;
+    background: radial-gradient(#009FFD, #00426b);
     border: 4px #CA5203;
     border-style: ridge;
     border-left: none;
@@ -97,20 +103,13 @@ nav a:hover {
   background-color: #00426b;
 }
 
-/* .headerGradient {
-  background: linear-gradient(to bottom, #009FFD, #00426b);
-}
-
-.footerGradient {
-  background: linear-gradient(to top, #009FFD, #00426b);
-} */
-
 .card {
   border : 4px #CA5203;
   border-style: ridge;
   border-radius: 10px;
   max-height: 25rem;
-  background: radial-gradient(#009FFD, #00426b); 
+  background: radial-gradient(#009FFD, #00426b);
+  box-shadow: 3px 3px 3px 3px black;
 }
 
 .card img {
@@ -118,7 +117,7 @@ nav a:hover {
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
-  margin: 1%;
+  margin-top: 1%;
   }
 
 .card-text {
@@ -135,7 +134,46 @@ nav a:hover {
   background-color: #FF6702;
 }
 
+.modal-content {
+  border : 4px #CA5203;
+  border-style: ridge;
+  border-radius: 10px;
+}
+
+.modal-header {
+  background: linear-gradient(#00426b 85%,#006DB2 100%);
+  border: none;
+}
+
+.modal-title {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  background-color: #006DB2;
+}
+
+.img-thumbnail {
+  max-height: 7rem;
+}
+
+.nestedModal img {
+  height: 40rem;
+  object-fit: cover;
+}
+
+.modal-footer {
+  background: linear-gradient(#006DB2 0%,#00426b 15%);
+  border: none;
+}
+
+#socialNetworks i {
+  margin: 0.5rem;
+}
+
 #ourPartners img {
   max-height: 4.5rem;
   max-width: 6rem;
+  margin: 0.5rem;
 }
