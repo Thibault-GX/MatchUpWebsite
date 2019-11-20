@@ -8,7 +8,7 @@ bleu électrique (variante claire) : #3EC8FE;
 bleu électrique (variante sombre) : #006DB2;
 bleu électrique (toujours plus sombre) : #00426b;
 police d'écriture (font) : Anton;
- */
+*/
 
 body {
   font-family: 'Anton', sans-serif;
@@ -49,7 +49,6 @@ header img {
 
 nav {
   background-color: #006DB2;
-  border-style: groove;
 }
 
 nav a:hover {
@@ -57,7 +56,7 @@ nav a:hover {
 }
 
 /* Changes when in mobile mode */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
 
   body .navbar {
     position: fixed;
@@ -92,4 +91,24 @@ nav a:hover {
 
 .footerGradient {
   background: linear-gradient(to top, #009FFD, #00426b);
+}
+
+.card {
+  border : 4px #FF9A55;
+  border-style: ridge;
+  border-radius: 10px;
+  max-height: 15rem;
+  background-color: #006DB2;
+}
+
+.card-text {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.card-title {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.btn-MatchUp {
+  background-color: #FF6702;
 }
