@@ -112,3 +112,8 @@ nav a:hover {
 .btn-MatchUp {
   background-color: #FF6702;
 }
+
+#ourPartners img {
+  max-height: 4.5rem;
+  max-width: 6rem;
+}
