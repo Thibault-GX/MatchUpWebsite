@@ -35,12 +35,11 @@ footer {
 
 .catchParameters {
   width: 60rem;
-  font-size: 5vw;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   line-height: 125%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 3%
 }
 
 /* Navbar related */
@@ -60,6 +59,7 @@ nav {
   border-style: ridge;
   border-left: none;
   border-right: none;
+  height: 8rem;
 }
 
 nav a:hover {
@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 /* Changes when in mobile mode */
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
 
   body .navbar {
     position: fixed;
@@ -76,10 +76,11 @@ nav a:hover {
     z-index: 3;
     background-size: contain;
     border-bottom: none;
+    height: auto;
   }
 
   header {
-    height: 5rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     background: radial-gradient(#009FFD, #00426b);
@@ -90,7 +91,8 @@ nav a:hover {
     border-top: none;
   }
   header img {
-    height: 5rem;
+    height: 9rem;
+    margin: 0.5rem;
   }
 
   header h1 {
