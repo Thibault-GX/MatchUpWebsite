@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 /* Changes when in mobile mode */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 992px){
 
   body .navbar {
     position: fixed;
