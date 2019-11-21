@@ -112,22 +112,37 @@ nav a:hover {
   box-shadow: 3px 3px 3px 3px black;
 }
 
-.card img {
-  max-height: 9rem;
-  object-fit: cover;
-  object-position: center;
+.card-body {
+  background-color: rgba(0, 0, 0, 0.65);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-radius: 10px;
-  margin-top: 1%;
-  }
+}
+
+.cardBackground01 {
+  background-image: url("../img/terryBogard.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardBackground02 {
+  background-image: url("../img/OuisticramPokemonGO.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .card-text {
   max-height: 7rem;
   text-align: justify;
   overflow: hidden;
+  color: white;
 }
 
 .card-title {
   max-height: 4rem;
+  color: white;
 }
 
 .btn-MatchUp {
